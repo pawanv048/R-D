@@ -67,3 +67,50 @@ myFunction(myCallback);
 9. A Promise is an object that represents a value that may not be available yet, but will be resolved at some point in the future. It differs from a callback in that it provides a more structured and consistent way of handling asynchronous operations.
 
 10. Error handling in a callback-based function can be achieved by passing an error object as the first argument to the callback function, or by wrapping the callback in a try-catch block.
+
+
+
+
+
+------------------------------------------------
+
+Definition:
+
+State: State is a built-in object in React that represents the internal data of a component. It is mutable and can be changed within the component.
+Props: Props (short for properties) are used to pass data from a parent component to its child component. Props are read-only and cannot be modified within the child component.
+Data Flow:
+
+State: State is local to a component and can only be accessed and modified within that component.
+Props: Props are passed from a parent component to a child component, allowing data to flow downwards from parent to child.
+Ownership:
+
+State: Each component manages its own state, and changes to state within a component affect only that component and its children.
+Props: Props are owned by the parent component and are passed down to child components. Child components cannot directly modify the props they receive.
+Mutability:
+
+State: State is mutable and can be updated using the setState() method. React will re-render the component and its children when state changes.
+Props: Props are immutable and cannot be modified within a component. They are passed down from the parent and remain constant throughout the component's lifecycle.
+Initialization:
+
+State: State is initialized within the component using the constructor or useState hook.
+Props: Props are passed from the parent component during the instantiation of the child component.
+Usage:
+
+State: State is typically used to store and manage data that can change within a component, such as user input, form values, or toggling a component's visibility.
+Props: Props are used to pass data and configuration to child components, allowing parent components to control the behavior and appearance of their children.
+Update Trigger:
+
+State: State can be updated asynchronously based on user interactions, network responses, timers, or other events.
+Props: Props are passed from the parent component and are not directly affected by events within the child component. Props are typically updated by the parent component.
+Scope:
+
+State: State is accessible only within the component where it is defined.
+Props: Props are accessible within the component that receives them and can be accessed using the props keyword.
+Dependency:
+
+State: State changes can trigger re-renders within the component hierarchy.
+Props: Props provide a way to pass data from a parent component to its child components, enabling data flow and reusability.
+Default Values:
+
+State: State can have default values assigned during initialization if no initial value is provided.
+Props: Props can have default values specified in the parent component when not explicitly passed down.
