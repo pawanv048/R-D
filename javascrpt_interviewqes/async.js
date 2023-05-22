@@ -32,6 +32,23 @@ setTimeout(() => {
 console.log('After setTimeout');
 
 
+function fetchData(callback) {
+  // Simulating an asynchronous operation
+  setTimeout(function() {
+    const data = "This is the fetched data";
+    callback(data);
+  }, 2000);
+}
+
+function processData(data) {
+  console.log("Processing data:", data);
+}
+
+// Calling the fetchData function and passing the processData function as a callback
+fetchData(processData);
+
+
+
 async function fetchData() {
   try {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
