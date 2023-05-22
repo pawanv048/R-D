@@ -25,6 +25,14 @@ var a = null
 
 //5 Undefined variable declared but not initalize
 
+//6. Symbol: A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.
+let sym = Symbol();
+let sym1 = Symbol('foo');
+
+
+//7. BigInt
+// 9007199254740991n	
+
 var b
 // console.log(b)
 
