@@ -129,3 +129,13 @@ console.log(countWords(arr))
 
 // { hello: 2, world: 1, java: 2 }
 
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+    console.log(accumulator) // 1 1 2 6 24 120
+  return accumulator * currentValue;
+}, 1);
+
+console.log(sum); // Output: 15
+// 1 is refers to initial value
