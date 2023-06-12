@@ -18,9 +18,9 @@ arr.copyWithin(1, 3, 4);
 console.log(arr); // [1, 4, 3, 4, 5]
 
 //entries(): Returns an iterator object that contains the key/value pairs for each index in the array.
-var arr = [1, 2, 3];
+var arr = [a, b, c];
 const entries = arr.entries();
-console.log([...entries]); // [[0, 1], [1, 2], [2, 3]]
+console.log(...entries); // [[0, 1], [1, 2], [2, 3]]
 
 //every(): Returns true if every element in the array passes the provided function.
 var arr = [1, 2, 3, 4];
