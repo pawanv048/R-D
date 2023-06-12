@@ -106,3 +106,26 @@ var findValue = digits.find((item) => {
 
 console.log(findValue)
 
+
+// Reducer method:
+
+let arr = ["hello","world","java","hello", "java"]
+
+function countWords(p) {
+  let result = p.reduce((allNames, name) => {
+      console.log(allNames)
+    if (name in allNames) {
+     allNames[name]++
+    } else {
+      allNames[name] = 1;
+    }
+    return allNames;
+  }, {});
+
+ // return result;
+}
+
+console.log(countWords(arr))
+
+// { hello: 2, world: 1, java: 2 }
+
