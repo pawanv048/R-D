@@ -12,7 +12,7 @@ console.log('concate arry =>',arr3); // [1, 2, 3, 4, 5, 6]
 console.log('original array =>', arr1+","+arr2) // original array => 1,2,3,4,5,6
 
 // copyWithin(): Copies part of an array to another location within the same array.
-
+// copyWithin(target, start, end)
 var arr = [1, 2, 3, 4, 5];
 arr.copyWithin(1, 3, 4);
 console.log(arr); // [1, 4, 3, 4, 5]
