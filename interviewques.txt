@@ -5,6 +5,10 @@ Async storage is secured or not.
 what is the use of useReducer hooks.
 what is keychain in react native.
 
+
+Lazy loading: 
+Implement lazy loading for images, especially if you have a large number of images or if they are not all visible on the screen at once. Load images only when they are about to become visible to the user, and unload them when they are no longer visible.
+
 -------------------------------------------------------------
 
 1) Normal variables are used to store data in a component, but they do not have any built-in functionality to handle component state changes.
