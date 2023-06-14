@@ -1,1 +1,5 @@
-
+what is the difference between normal variable and react hooks
+what is real life example of usecontext and useReducer
+what is the difference between usestate hooks and useReducer hooks and give me real-life example
+Async storage is secured or not.
+what is the use of useReducer hooks.
