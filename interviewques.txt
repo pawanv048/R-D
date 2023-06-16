@@ -74,3 +74,64 @@ React Native provides a module called react-native-keychain that serves as a bri
 By utilizing the react-native-keychain module, developers can securely store sensitive data in the keychain, which benefits from the underlying security features provided by the operating system. These features may include encryption, secure hardware storage, biometric authentication (such as Touch ID or Face ID), and access controls.
 
 Using the keychain in React Native ensures that sensitive information remains encrypted and protected from unauthorized access, even if the device is compromised or jailbroken. It is particularly useful when handling credentials, session tokens, or any other sensitive data that needs to be stored securely on the device.
+
+
+
+
+
+---------->
+
+
+1. integrating  Image/Video Capture,
+
+library: RNVision Camera.
+
+> build on google mobile vision api.
+>features:
+-detection
+-recognition
+-Easy to use
+-consistent interface
+
+used for
+
+face detection
+qr code
+video call
+
+
+2. Geolocation 
+
+library: npm i react-native-maps
+npm i react-native-maps-directions
+
+3. RN Async-Storage(Local storage)
+
+
+react-native-async-storage/async-storage
+
+-setItem('@storage_Key', value)
+-AsyncStorage.getItem('@storage_Key')
+-removeItem('@MyApp_key')
+-{ getItem, setItem } = useAsyncStorage('@storage_key');
+
+Local storage data is not secure to secure local storage data we need keychain
+for that library user npm npm i react-native-keychain.
+
+
+4. react-native svg
+
+npm i react-native-svg
+
+features:
+
+SVG elements and properties (Rect, Circle, Line, Polyline, Polygon, G ...)
+
+
+real-life example:
+
+why we use usecontext over redux:
+
+User-Authentatiation
+themes
+
