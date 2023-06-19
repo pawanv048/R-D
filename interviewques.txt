@@ -135,3 +135,52 @@ why we use usecontext over redux:
 User-Authentatiation
 themes
 
+//**********************Real Life Hooks***********************//
+
+useState: 
+
+1) A todo list application that keeps track of the user's to-do items.
+3) A chat application that keeps track of the user's conversations.
+4) A game that keeps track of the user's score.
+
+useEffect:
+
+A news application that fetches the latest headlines when the component mounts.
+A social media application that fetches the user's recent posts when the component mounts.
+A shopping application that fetches the user's cart contents when the component mounts.
+A game that fetches the latest high score when the component mounts.
+
+useContext:
+
+web application with a dark and light theme. You want to be able to switch between themes, 
+and have all of the components in the application update their colors accordingly.
+
+You could use useContext to create a theme context. The theme context would store the current theme, 
+and all of the components in the application could subscribe to the theme context to get the current theme.
+
+A language context that stores the current language, and all of the components in the application could subscribe to the language context to get the current language.
+
+A user context that stores the current user, and all of the components in the application could subscribe to the user context to get the current user.
+
+--> Real-life difference between useState and useReducer
+
+Here are some examples of when you might want to use useState instead of useReducer:
+
+When you only need to manage a single piece of state.
+When the state is simple and does not require any complex logic to be updated.
+When you are testing your application and want to make it easier to reason about the state.
+Here are some examples of when you might want to use useReducer instead of useState:
+
+When you need to manage multiple pieces of state.
+When the state is complex and requires some complex logic to be updated.
+When you want to encapsulate the logic for updating the state in a single function.
+Ultimately, the best way to decide which hook to use is to experiment and see what works best for you.
+
+
+--> Lazy lOading:
+
+Lazy loading is used to load heavy contents on a page slowly after important contents are loaded. 
+Generally used when images are present on the screen and the network is slow on the end device.
+
+
+
