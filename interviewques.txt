@@ -190,6 +190,12 @@ Generally used when images are present on the screen and the network is slow on 
 * Declarative UI: The virtual DOM makes it easy to write declarative UI code. This means that you can simply specify what you want the UI to look like, and React Native will take care of updating the UI accordingly. This can make your code more readable and maintainable.
 * Reusable components: The virtual DOM makes it easy to create reusable components. This is because the virtual DOM is a lightweight representation of the UI, so it is easy to copy and paste components without affecting the performance of the app.
 
+--->
 
+Primitive Data types are predefined. 	          |     Non-Primitive data types are created by the programmer
+Primitive Data types will have certain values.  |    	Non-Primitive data types can be NULL.
+Size depends on the type of data structure.	    |    Size is not fixed
+Examples are numbers and strings.	              |    Examples are Array and Linked List.
+It can start with a lowercase.	                 |    It can start with uppercase.
 
 
