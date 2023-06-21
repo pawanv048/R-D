@@ -177,10 +177,19 @@ When you want to encapsulate the logic for updating the state in a single functi
 Ultimately, the best way to decide which hook to use is to experiment and see what works best for you.
 
 
---> Lazy lOading:
+--> Lazy Loading:
 
 Lazy loading is used to load heavy contents on a page slowly after important contents are loaded. 
 Generally used when images are present on the screen and the network is slow on the end device.
+
+---> virtual DOM
+
+ The virtual DOM is a lightweight representation of the UI that is kept in memory. When the state of the app changes, the virtual DOM is updated and the changes are then reconciled with the real DOM. This process allows React Native to update the UI efficiently, only updating the parts of the UI that have actually changed.
+
+* Performance: The virtual DOM allows React Native to update the UI efficiently, only updating the parts of the UI that have actually changed. This can improve the performance of the app, especially for apps with a lot of state changes.
+* Declarative UI: The virtual DOM makes it easy to write declarative UI code. This means that you can simply specify what you want the UI to look like, and React Native will take care of updating the UI accordingly. This can make your code more readable and maintainable.
+* Reusable components: The virtual DOM makes it easy to create reusable components. This is because the virtual DOM is a lightweight representation of the UI, so it is easy to copy and paste components without affecting the performance of the app.
+
 
 
 
