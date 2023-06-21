@@ -199,3 +199,10 @@ Examples are numbers and strings.	              |    Examples are Array and Link
 It can start with a lowercase.	                 |    It can start with uppercase.
 
 
+// Output:
+console.log(10+20+"30")   //3030
+console.log("10"+20+30) // 102030
+
+2nd case explain:
+In JavaScript, the + operator is used for both addition and string concatenation. When the + operator is applied to a string and a number, it performs string concatenation by converting the number to a string and concatenating it with the existing string.
+In this case, "10" is a string, and the expression "10" + 20 will concatenate the string "10" with the string representation of the number 20, resulting in "1020". Next, the expression "1020" + 30 will concatenate "1020" with the string representation of 30, resulting in the final string "102030"
