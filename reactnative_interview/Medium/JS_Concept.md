@@ -28,7 +28,7 @@ or Swift. Native modules allow React Native applications to access native APIs, 
 
 ## React Native threads
 
-1) __UI thread__ (often called main): This is the only thread that can manipulate host views.
+* __UI thread__ (often called main): This is the only thread that can manipulate host views.
 Host views are the native views that are used to render React Native components.
 The UI thread is responsible for rendering the UI and handling user input.
 
