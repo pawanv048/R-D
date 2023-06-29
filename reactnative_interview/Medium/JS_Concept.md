@@ -32,12 +32,12 @@ or Swift. Native modules allow React Native applications to access native APIs, 
 Host views are the native views that are used to render React Native components.
 The UI thread is responsible for rendering the UI and handling user input.
 
-2) __JavaScript thread__ (also called main thread): This is where React's render phase is executed.
++ __JavaScript thread__ (also called main thread): This is where React's render phase is executed.
 The render phase is the process of updating the UI in response to changes in the application state.
 The JavaScript thread is also responsible for executing other JavaScript code in the application,
 such as code that is used to handle user input or make network requests.
 
-3) __Background thread__ (also called worker thread): This thread is dedicated to layout.
+- __Background thread__ (also called worker thread): This thread is dedicated to layout.
  Layout is the process of determining the size and position of the host views in the UI.
  The background thread is responsible for performing layout calculations that are not related to the main thread.
  This can help to improve the performance of the UI by freeing up the main thread to handle other tasks.
