@@ -1,4 +1,6 @@
-#How arrow function is different from the normal function?
+# Easy question related to javascript
+
+## How arrow function is different from the normal function?
 
 Arrow functions and normal functions in JavaScript have some differences in syntax.
 + Normal Function: Requires an explicit return statement to return a value.
