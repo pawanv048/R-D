@@ -14,7 +14,7 @@ spread operator is often used to manipulate and merge arrays or objects.
 + Copying an object
 + Merging objects
 
-# what is the difference between let var and const?
+## what is the difference between let var and const?
 
 **Declaration and Initialization**
 
@@ -36,4 +36,8 @@ This means they are accessible throughout the whole function where they are decl
 
 + var and let: Variables declared with var or let can be reassigned new values.
 + const: Variables declared with const cannot be reassigned once they are initialized.
+
+## what is primitive and non primitive data type?
+
+
 
