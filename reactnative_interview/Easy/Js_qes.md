@@ -37,7 +37,9 @@ This means they are accessible throughout the whole function where they are decl
 + var and let: Variables declared with var or let can be reassigned new values.
 + const: Variables declared with const cannot be reassigned once they are initialized.
 
-## what is primitive and non primitive data type?
+### what is primitive and non primitive data type?
+### what is Rest? Example in react native?
+
 
 
 
