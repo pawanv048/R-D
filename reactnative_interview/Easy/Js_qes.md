@@ -40,7 +40,17 @@ This means they are accessible throughout the whole function where they are decl
 ---------------------------------------------------------------------------
 1. what is primitive and non primitive data type?
 2. what is Rest? Example in react native?
+3. What is computed propert?
+4. What is Destructuring?
+5. What is Nullish coalescing operator? // it is denoted with (??) and used as default value [const foo = object.foo ?? 'default';]
+6. what is the optional chaining method?
+7. what is timer function? 
 
+setTimeout, clearTimeout
+setInterval, clearInterval
+setImmediate, clearImmediate
+requestAnimationFrame, cancelAnimationFrame
+8.
 
 
 
