@@ -74,6 +74,50 @@ This prevents the entire application from crashing due to a single error.
 Fiber paves the way for Concurrent Mode, an upcoming feature that allows for more responsive user interfaces by performing rendering work in small chunks over multiple frames,
 without blocking the "main thread"(UI thread where javascript code running).
 
+## what is the difference between promises and async await?
+
+Promises and async/await are both asynchronous programming
+
+**Promises**
+
+Promises are objects that represent the eventual completion or failure of an asynchronous operation.
+means that a promise can be in one of three states(pending, reject, resolve)
+
+They have three states: pending, resolved, and rejected.
+You can attach callbacks to promises to handle the different states.
+Promises can be chained together to create complex asynchronous workflows.
+
+For example, let's say you want to fetch a user from the server. You could use a callback to do this:
+
+function fetchUser(id) {
+  return fetch(`/api/users/${id}`).then(response => response.json());
+}
+
+const user = fetchUser(1234);
+
+user.then(user => {
+  // Do something with the user.
+});
+
+user.catch(error => {
+  // Handle the error.
+});
+
+For example, let's say you want to fetch a user from the server, then fetch the user's profile data. You could chain together two promises to do this:
+
+const userPromise = fetchUser(1234);
+const profileDataPromise = userPromise.then(user => fetch(`/api/users/${user.id}/profile`));
+
+profileDataPromise.then(profileData => {
+  // Do something with the profile data.
+});
+
+**Async/Await**
+
+Async/await is a syntax sugar for promises that makes it easier to write asynchronous code that looks more synchronous.
+You can use the await keyword to suspend the execution of an async function until a promise is resolved or rejected.
+Async/await also provides a way to handle errors gracefully.
+
 
 
 
