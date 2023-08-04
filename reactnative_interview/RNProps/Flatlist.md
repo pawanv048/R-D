@@ -11,4 +11,4 @@
 8. keyExtractor tells the list to use the ids for the react keys instead of the default key property.
 9. initialNumToRender: How many items to render in the initial batch.
 10. onRefresh: type function : standard RefreshControl will be added for "Pull to Refresh" functionality. Make sure to also set the refreshing prop correctly.
-11. 
+ 
