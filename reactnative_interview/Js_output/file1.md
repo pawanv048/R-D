@@ -4,10 +4,11 @@ var trees = ["pine","pine","oak","maple","cherry"];
 delete trees[3];
 console.log(trees.length);
 
-R: 1. The code initializes an array called trees with five elements: "pine", "pine", "oak", "maple", and "cherry".
-  2. It then uses the delete operator to delete the element at index 3, which is "maple".
+R:
+- The code initializes an array called trees with five elements: "pine", "pine", "oak", "maple", and "cherry".
+- It then uses the delete operator to delete the element at index 3, which is "maple".
   After this operation, the array becomes: ["pine", "pine", "oak", empty, "cherry"].
-  3. Finally, it logs the length of the array using console.log(trees.length). The .length property of an array returns the number of elements in the array. 
+- Finally, it logs the length of the array using console.log(trees.length). The .length property of an array returns the number of elements in the array. 
   In this case, there are still five elements in the array (even though one of them is empty due to the deletion), so the output is 5.
 
 Note that using --delete-- on an array element will create an empty slot in the array, but it won't actually remove the slot itself. 
