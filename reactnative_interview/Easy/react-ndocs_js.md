@@ -208,7 +208,8 @@ personConcise.sayHello();   // Output: Hello, Bob Smith
 
 ```
 
-### 
+### Object Short Notation
+
 
 - In JavaScript, object short notation (also known as object shorthand) is a concise way to define object properties when the property name matches the variable name that holds the value you want to assign. <br>This shorthand notation simplifies the process of creating objects and enhances code readability.
 
@@ -233,6 +234,23 @@ console.log(personShort);  // Output: { name: 'Alice', age: 30 }
 
 ```
 
+
+### Rest Params:
+
+- The rest parameter enables a function to accept an arbitrary number of arguments as an array, <br>making it flexible when dealing with functions that can take varying numbers of arguments.<br>It provides a way to gather up the remaining arguments passed to a function into a single array parameter.
+
+```javascript
+function showInfo(name, age, ...hobbies) {
+  console.log(`Name: ${name}, Age: ${age}`);
+  console.log(`Hobbies: ${hobbies.join(', ')}`);
+}
+
+showInfo('Alice', 30, 'Reading', 'Painting');
+// Output:
+// Name: Alice, Age: 30
+// Hobbies: Reading, Painting
+
+```
 
 
 
