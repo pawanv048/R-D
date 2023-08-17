@@ -252,5 +252,76 @@ showInfo('Alice', 30, 'Reading', 'Painting');
 
 ```
 
+### Shorthand properties:
+
+- Shorthand properties enable you to directly assign variable values to object properties <br>without explicitly specifying both the property name and the variable name.
+
+```javascript
+const name = "Alice";
+const age = 30;
+
+// Traditional property assignment
+const person = {
+  name: name,
+  age: age
+};
+
+// Shorthand property assignment
+const personShorthand = {
+  name,
+  age
+};
+
+console.log(person);           // Output: { name: 'Alice', age: 30 }
+console.log(personShorthand);  // Output: { name: 'Alice', age: 30 }
+
+```
+
+### Sticky regex: 
+
+- The sticky regex (y) flag is used to enforce matches at a specific index, indicated by the lastIndex property of the regular expression. It ensures that consecutive matches are found from the exact index specified.
+
+```javascript
+const pattern = /ab/y;
+let str = "ababab";
+
+console.log(pattern.test(str)); // Output: true (matches "ab" at index 0)
+pattern.lastIndex = 2;
+console.log(pattern.test(str)); // Output: true (matches "ab" at index 2)
+pattern.lastIndex = 4;
+console.log(pattern.test(str)); // Output: true (matches "ab" at index 4)
+
+```
+
+### Template literals
+
+* Template literals provide a way to create strings that can contain placeholders for variables or expressions. <br>These placeholders are enclosed in ${} and are evaluated at runtime, allowing for dynamic content in strings.
+
+```javascript
+const multiline = `
+  This is a multiline
+  string using template literals.
+`;
+
+console.log(multiline);
+// Output:
+//   This is a multiline
+//   string using template literals.
+
+```
+
+### Unicode regular expressions
+
+* Unicode regular expressions enable pattern matching and manipulation of Unicode characters, including those outside the ASCII range.<br> They allow you to search for or replace specific Unicode characters or character classes within strings.
+
+```javascript
+// Matching a Unicode character using its hexadecimal code point
+const unicodeString = "Hello \u{1F60A}"; // The emoji "😊"
+const pattern = /\u{1F60A}/u;
+
+console.log(pattern.test(unicodeString)); // Output: true
+
+```
+
 
 
