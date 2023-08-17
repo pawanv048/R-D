@@ -165,6 +165,74 @@ const age = 25;
 const info = `Name: ${name}, Age: ${age}`; // Template literal
 ```
 
+### Module:
+
+- Modules in JavaScript are a way to split code into separate files, each acting as a self-contained unit with its own scope. They facilitate better organization, encapsulation, and reuse of code in larger applications.
+- Exporting: Use the export keyword to expose functions, variables, or classes from a module.
+- Importing: Use the import keyword to bring exported values from other modules into your current module.
+
+```javascript
+import { add, subtract } from './math.js';
+
+console.log(add(5, 3));       // Output: 8
+console.log(subtract(10, 4)); // Output: 6
+
+```
+
+### Object Concise Method:
+
+- In JavaScript, concise object methods are a shorthand syntax for defining methods (functions) within object literals.
+  This syntax allows you to define methods using a more compact and readable format.
+
+```javascript
+// Traditional method definition
+const person = {
+  firstName: "Alice",
+  lastName: "Johnson",
+  sayHello: function() {
+    console.log(`Hello, ${this.firstName} ${this.lastName}`);
+  }
+};
+
+// Concise method definition
+const personConcise = {
+  firstName: "Bob",
+  lastName: "Smith",
+  sayHello() {
+    console.log(`Hello, ${this.firstName} ${this.lastName}`);
+  }
+};
+
+person.sayHello();          // Output: Hello, Alice Johnson
+personConcise.sayHello();   // Output: Hello, Bob Smith
+
+```
+
+### 
+
+- In JavaScript, object short notation (also known as object shorthand) is a concise way to define object properties when the property name matches the variable name that holds the value you want to assign. This shorthand notation simplifies the process of creating objects and enhances code readability.
+
+```javascript
+const name = "Alice";
+const age = 30;
+
+// Traditional property assignment
+const person = {
+  name: name,
+  age: age
+};
+
+// Object short notation
+const personShort = {
+  name,
+  age
+};
+
+console.log(person);       // Output: { name: 'Alice', age: 30 }
+console.log(personShort);  // Output: { name: 'Alice', age: 30 }
+
+```
+
 
 
 
