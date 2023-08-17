@@ -76,3 +76,95 @@ const obj1 = { a: 1, b: 2 };
 const obj2 = { c: 3 };
 const combinedObj = { ...obj1, ...obj2 }; // { a: 1, b: 2, c: 3 }
 ```
+
+
+### Computed Properties:
+
+- Computed properties in JavaScript refer to the ability to use expressions inside square brackets [] to dynamically create or access object properties based on variable values or expressions.
+
+```javascript
+const key = "name";
+const value = "Alice";
+
+// Creating an object with a computed property
+const person = {
+  [key]: value
+};
+
+console.log(person.name); // Output: Alice
+```
+
+*Computed properties for dynamic property access:
+- Computed properties also enable dynamic property access, which can be useful when you have property names stored in variables.
+
+```javascript
+const propertyName = "age";
+const person = {
+  name: "Bob",
+  age: 30
+};
+
+console.log(person[propertyName]); // Output: 30
+ ```
+
+### Destructuring:
+
+- Destructuring is a technique in JavaScript that lets you extract values from arrays or properties from objects and assign them to variables in a more concise and readable way.
+
+```javascript
+// Destructuring an array
+const numbers = [1, 2, 3];
+const [first, second, third] = numbers;
+console.log(second); // Output: 2
+
+// Destructuring an object
+const person = { name: "Alice", age: 30 };
+const { name, age } = person;
+console.log(name); // Output: Alice
+
+```
+
+### for...of:
+
+- The for...of loop in JavaScript is used to iterate over the values of an iterable object,
+such as an array, string, map, set, or any object that implements the iterable protocol.
+It provides a more concise and straightforward way to loop through elements compared to traditional for loops.
+
+```javascript
+// Iterating over Map keys and values using for...of
+const myMap = new Map();
+myMap.set("name", "Alice");
+myMap.set("age", 30);
+
+for (const [key, value] of myMap) {
+  console.log(key, value);
+}
+
+// Iterating over Set elements
+const mySet = new Set([1, 2, 3, 4, 5]);
+for (const num of mySet) {
+  console.log(num);
+}
+```
+
+### Literals:
+
+- Literals are fixed values that are directly written into your code to represent specific data types, such as numbers, strings, booleans, objects, arrays, and more. They are used to provide immediate and constant values without any calculations.
+
+```javascript
+const number = 42; // Numeric literal
+const message = "Hello, world!"; // String literal
+const isTrue = true;  // Boolean literal
+const isFalse = false; // Boolean literal
+const person = { name: "Alice", age: 30 }; // Object literal
+const numbers = [1, 2, 3, 4, 5]; // Array literal
+const regex = /pattern/g; // Regular expression literal
+const name = "Bob";
+const age = 25;
+
+const info = `Name: ${name}, Age: ${age}`; // Template literal
+```
+
+
+
+
