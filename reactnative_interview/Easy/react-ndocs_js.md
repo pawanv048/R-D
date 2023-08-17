@@ -149,7 +149,7 @@ for (const num of mySet) {
 
 ### Literals:
 
-- Literals are fixed values that are directly written into your code to represent specific data types, such as numbers, strings, booleans, objects, arrays, and more. They are used to provide immediate and constant values without any calculations.
+- Literals are fixed values that are directly written into your code to represent specific data types, such as numbers, strings, booleans, objects, arrays, and more. <br> They are used to provide immediate and constant values without any calculations.
 
 ```javascript
 const number = 42; // Numeric literal
@@ -181,7 +181,7 @@ console.log(subtract(10, 4)); // Output: 6
 
 ### Object Concise Method:
 
-- In JavaScript, concise object methods are a shorthand syntax for defining methods (functions) within object literals.
+- In JavaScript, concise object methods are a shorthand syntax for defining methods (functions) within object literals.<br>
   This syntax allows you to define methods using a more compact and readable format.
 
 ```javascript
@@ -210,7 +210,7 @@ personConcise.sayHello();   // Output: Hello, Bob Smith
 
 ### 
 
-- In JavaScript, object short notation (also known as object shorthand) is a concise way to define object properties when the property name matches the variable name that holds the value you want to assign. This shorthand notation simplifies the process of creating objects and enhances code readability.
+- In JavaScript, object short notation (also known as object shorthand) is a concise way to define object properties when the property name matches the variable name that holds the value you want to assign. <br>This shorthand notation simplifies the process of creating objects and enhances code readability.
 
 ```javascript
 const name = "Alice";
