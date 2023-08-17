@@ -23,7 +23,7 @@ console.log(multiplyArrow(2, 3));     // Output: 6
 
 ### Block scoping:
 
-- Block scoping restricts the visibility and accessibility of variables to the block in which they are defined.
+- Block scoping restricts the visibility and accessibility of variables to the block in which they are defined.<br>
   This is in contrast to variables defined with var, which have function or global scope.
 
 ```javascript
