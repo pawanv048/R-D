@@ -119,6 +119,11 @@ You can use the await keyword to suspend the execution of an async function unti
 Async/await also provides a way to handle errors gracefully.
 
 
+## React native life cycle in a functional component in terms of mounting and unmounting
+
+
+
+
 
 
 
