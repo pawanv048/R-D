@@ -1,0 +1,21 @@
+Redux manage the application state,
+arcture flow: view -> action update state -> reducer -> put into store
+Action: (type, payload)
+: with the help of action only change the state 
+reducer: (state, action)
+
+when action is type of async, then we use redux middleware such as thunk or saga
+:reducer always return a default state
+
+dispatch is nothing but action event, reducer is act as a listner
+
+reducer is the function
+// reducer is for previous state and perfrom action on it
+
+reducer return inital state until the action is not perform,
+if action perform then, return give update state.(important)
+
+// State: it a object like nested tree
+// action: performing any type of action goes to reducer
+
+//dispatch is a function provided by Redux that allows you to send actions to the Redux store. It is the primary way to trigger state changes in a Redux application
