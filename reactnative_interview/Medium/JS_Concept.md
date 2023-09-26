@@ -122,6 +122,23 @@ Async/await also provides a way to handle errors gracefully.
 ## React native life cycle in a functional component in terms of mounting and unmounting
 
 
+## Here are some of the new features and improvements in React Native 0.72:
+
+Symlink support: This allows developers to symlink their React Native project to other codebases, which can make development and testing more efficient.
+Metro updates: Metro is the bundler used by React Native to package JavaScript code for native execution. React Native 0.72 includes a number of updates to Metro, such as improved support for symlinks and package exports.
+Key developer experience improvements: React Native 0.72 includes a number of improvements to the developer experience, such as enhanced error handling and React Native CLI.
+New Architecture updates: The New Architecture is a major rewrite of the React Native core that is designed to improve performance, reliability, and maintainability. React Native 0.72 includes a number of updates to the New Architecture, such as improved support for TypeScript and Hermes.
+In addition to these new features and improvements, React Native 0.72 also includes a number of bug fixes and performance improvements.
+
+Here are some other notable updates to React Native in recent months:
+
+TypeScript by default: TypeScript is a superset of JavaScript that adds type safety and other features. React Native 0.71 made TypeScript the default language for new projects.
+Flexbox gap support: Flexbox is a layout system that allows developers to create complex layouts with ease. React Native 0.71 added support for Flexbox gap, which makes it easier to create space between flex items.
+Web-inspired props for accessibility, styles, and events: React Native 0.71 added a number of new props that are inspired by the web, such as aria- props for accessibility, style props for styling, and event props for handling events.
+Restoring PropTypes: PropTypes are a way to validate the props that are passed to a React component. React Native 0.71 restored PropTypes support, which can help to improve the quality of your code.
+Overall, React Native is a constantly evolving framework, and the team behind it is always working to add new features and improvements. The latest updates to React Native make it an even better choice for building native mobile apps with JavaScript.
+
+
 
 
 
