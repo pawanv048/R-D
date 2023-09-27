@@ -114,11 +114,8 @@ console.log(fullPath); // Output: "https://example.com/subpage/page.html"
 // Return new array of extract element
 
 var numb = [3,5,7,9,2]
-
 let extractedArrayf = numb.slice(2) // if pass one argu then search for first goes till the end
-
 let extractedArray = numb.slice(2,3)
-
 console.log('Slice array =>', extractedArray) // [ 7 ]
 console.log('Original array =>', numb)
 
@@ -129,9 +126,7 @@ console.log('Original array =>', numb)
 // mutating array
 
 var numb = [3,5,7,9,2]
-
 let update = numb.splice(1,2,1)
-
 console.log('splice array =>', update) // [ 5, 7 ]
 console.log('Original array =>', numb) // [ 3, 1, 9, 2 ]
 
@@ -140,7 +135,6 @@ console.log('Original array =>', numb) // [ 3, 1, 9, 2 ]
 // useful: getting last element of the array
 
 var numbr = [3,5,7,9,2]
-
 console.log(numbr[2]) // 7
 console.log(numbr.at(2)) // 7
 
