@@ -88,21 +88,23 @@ function compareFn(a,b){
 
 console.log('original array=>', month)
 
+
 // Reverse (Mutate method.)
-
 var letter = ["a","b","c","d","e"]
-
 var reverse = letter.reverse()
 console.log("reverse =>", reverse) // reverse => [ 'e', 'd', 'c', 'b', 'a' ]
 console.log("original array =>", letter) // original array => [ 'e', 'd', 'c', 'b', 'a' ]
 
 // Join method
 // Non-mutable array
-
 var num = [1,2,3,4]
-
 console.log('Join array =>', num.join('-')) // 1-2-3-4
 console.log("original array =>", num) // original array => [ 1, 2, 3, 4 ]
+
+const urls = ["https://example.com", "subpage", "page.html"];
+const fullPath = urls.join("/");
+console.log(fullPath); // Output: "https://example.com/subpage/page.html"
+
 
 
 // Slice: 
