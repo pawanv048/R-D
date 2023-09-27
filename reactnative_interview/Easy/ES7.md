@@ -34,6 +34,7 @@ fetchData()
 ```
 
 
+
 ### Function Trailing Comma:
 
 * Function trailing commas, also known as trailing comma syntax, allow you to place a comma after the last parameter of a function declaration or function call. <br>This syntax is allowed in JavaScript and some other programming languages, and it can help improve code maintainability when adding, removing, or rearranging parameters.
@@ -217,3 +218,25 @@ cancelAnimationFrame(animationFrameId); // Cancel the animation frame callback
 
 ```
 
+
+# Hosting:
+
+* Hoisting in JavaScript means that functions and variables can be used before they are declared.
+
+```
+console.log(myVariable); // undefined
+var myVariable = 10;
+
+greet(); // "Hello, world!"
+function greet() {
+  console.log("Hello, world!");
+}
+
+
+const greet = function() {
+  console.log("Hello, world!");
+};
+
+greet(); // "Hello, world!"
+
+```
