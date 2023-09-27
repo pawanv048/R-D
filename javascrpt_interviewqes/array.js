@@ -29,6 +29,7 @@ const isGreaterThanZero = (num) => num > 0;
 console.log(arr.every(isGreaterThanZero)); // true
 
 // fill(): Fills all the elements of an array from a start index to an end index with a static value.
+// Mutating
 var arr = ["a", "b", "c"];
 arr.fill(0, 1, 2);
 console.log(arr); // [ 'a', 0, 'c' ]
