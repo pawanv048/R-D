@@ -21,7 +21,7 @@ This promotes predictable and easier-to-manage data flow and helps in debugging 
 React encourages the components-based architecture, where UIs are broken down into modular,
 and reusable components, components can be composed and create a complex UI structure.
 
-### What is the purpose of Virtual Dom?###
+### What is the purpose of Virtual Dom?
 
 It is a fake Dom, Dom is the thing where the Entrie tree is rendered. So the copy of the view tree
 is with react called virtual dom. Whenever you change something in the state or in prop
@@ -34,7 +34,7 @@ so what is the benefit of this?
 The benefit of this is that the browser, because the whole dom is not being 
 repainted every time, so less work is being done. so because of that app is getting fast and responding quickly.
 
-### How does React handle updating and re-rendering? what is Reconciliation ###
+### How does React handle updating and re-rendering? what is Reconciliation?
 
 You have Real Dom and Virtual Dom, some changes have happened, so the copy of the Real Dom is the Virtual Dom.
 Now a new Dom is created with new changes, And a diffing algorithm is running between these two.
