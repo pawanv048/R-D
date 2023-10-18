@@ -1,5 +1,4 @@
 ### How React is different from other javascript framework?
-===========
 
 - **React works on virtual dom**
 
