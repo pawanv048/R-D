@@ -1,3 +1,13 @@
+/// Follow the structure to explain any top:
+What is it?
+Why do we need it?
+How do we use it?
+Where do we use it in a project?
+What is the real-world use in an application?
+What should we be careful about?
+
+
+
 + React-Native
 
 - FlatList → Efficiently render large lists.
