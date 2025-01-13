@@ -53,7 +53,54 @@
 
 - Redux → Centralized state management.
 - Redux Thunk → Async middleware for Redux.
-- 
+- Redux Toolkit → Simplified Redux setup(Slices and reducer).
+- configureStore → Create Redux store.
+- createSlice → Generate reducers and actions.
+- slice → State logic module.
+- reducer → Update state logic.
+- action → Trigger state updates.
+- dispatch → Trigger actions.
+- useSelector → Access store state.
+- useDispatch → Send actions to store.
+- initialState → Default state value.
+- middleware → Extend store functionality.
+- createAsyncThunk → Handle async actions.
+- extraReducers → Handle external actions.
+- builder → Add reducers dynamically.
+- immer → Simplify immutable updates.
+- store → State container.
+- state → Data in the store.
+- RTK Query → Fetch and cache data.
+- Api Slice → Define endpoints for RTK Query.
+- mutation → Modify server data.
+- cache → Store fetched data locally.
+- selectors → Derived state computation.
+- Provider → Pass store to app.
+- combineReducers → Merge multiple reducers.
+- thunk → Middleware for async logic.
+- serializableCheck → Validate serializable state.
+- redux-devtools → Debug state changes.
+- DevTools → Monitor Redux actions.
+- defaultMiddleware → Predefined middleware setup.
+- reselect → Efficient derived selectors.
+- listenerMiddleware → React to specific actions.
+- preloadedState → Initialize state.
+- action creator → Function to dispatch actions.
+- payload → Data passed with actions.
+- enhancer → Extend Redux store capabilities.
+- logger → Middleware for logging actions.
+- unsubscribe → Stop listening to store updates.
+- isPending → Check async action status.
+- fulfilled → Completed async action.
+- rejected → Failed async action.
+- cacheTime → Data validity duration.
+- invalidateTags → Force data refetch.
+- refetch → Reload cached data.
+- autoBatching → Optimize action dispatch.
+- entityAdapter → Normalize state structure.
+
+
+
 
 
 
