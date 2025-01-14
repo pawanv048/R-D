@@ -109,6 +109,31 @@
 - autoBatching → Optimize action dispatch.
 - entityAdapter → Normalize state structure.
 
++ Axios: 
+
+- async → Asynchronous function declaration.
+- Axios → HTTP client.
+- await → Wait for a promise.
+- GET → Fetch data.
+- POST → Send data.
+- PUT → Update data.
+- DELETE → Remove data.
+- BaseURL → Default API endpoint.
+- Headers → Request metadata.
+- Params → Query parameters.
+- Data → Request/response body.
+- Interceptors → Pre/post request hooks.
+- Response → Server reply.
+- Error → Request failure.
+- Promise → Async response handler.
+- Config → Request settings.
+- Timeout → Request limit duration.
+- CancelToken → Abort request.
+- Instance → Customized Axios setup.
+- Instance Methods → Configured Axios calls.(make baseUrl global)
+- Retry-After → Retry delay header.
+
+
 
 
 
