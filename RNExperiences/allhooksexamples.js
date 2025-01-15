@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     marginBottom: 16,
-  }
+  },
   input: {
     height: 40,
     borderColor: 'gray',
