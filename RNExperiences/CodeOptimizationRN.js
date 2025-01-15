@@ -1,7 +1,8 @@
 import { Button, StyleSheet, Text, View } from 'react-native'
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
-
+// More to understand to to the link: 
+//https://chatgpt.com/share/67876dff-b5f0-800a-b431-8123bfef02bc
 const App = () => {
  const [count, setCount] = useState(0);
 
